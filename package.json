@@ -1,0 +1,27 @@
+{
+  "name": "design-patterns-typescript",
+  "version": "1.0.0",
+  "description": "Este é o repositório serve para botar em prática e aprender mais sobre os design patterns seguindo a playlist: [Padrões de Projeto (Design Patterns - GoF)](https://www.youtube.com/watch?v=MqddY6Ochkc&list=PLbIBj8vQhvm0VY5YrMrafWaQY2EnJ3j8H)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node-dev --files --transpile-only --inspect --ignore-watch node_modules src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demarche1/design-patterns-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demarche1/design-patterns-typescript/issues"
+  },
+  "homepage": "https://github.com/demarche1/design-patterns-typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
+}
