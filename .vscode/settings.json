@@ -1,5 +1,6 @@
 {
   "code-runner.executorMap": {
     "typescript": "clear && npx ts-node-dev --files --transpile-only --inspect --ignore-watch node_modules src/index.ts",
-  }
+  },
+  "nuxt.isNuxtApp": false
 }
