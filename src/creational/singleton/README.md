@@ -14,6 +14,9 @@ Note que o Singleton tem duas responsabilidades e isso quebra a regra do SRP (Si
 
 Em entrevista, anos após a criação do livro, Erich Gamma (um dos autores), mencionou seu interesse em remover o Singleton se fossem reescrever o livro na atualidade. Segundo ele, o uso de singleton quase sempre é sinal de problemas de design.
 
+# Estrutura
+[Ver UML](https://github.com/demarche1/design-patterns-typescript/tree/master/src/creational/singleton/diagrams)
+
 # Aplicabilidade
 
 Use o singleton quando:
