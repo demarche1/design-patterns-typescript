@@ -12,7 +12,7 @@ Apesar de ser um dos padrões mais usados na atualidade, requer conhecimento e c
 
 Note que o Singleton tem duas responsabilidades e isso quebra a regra do SRP (Single Responsibility Principle).
 
-Em entrevista, anos após a criação do livro, Erich Gamma (um dos autores), mencionou seu interesse em remover o Singleton se fossem reescrever o livro na atualidade. Segundo ele, o uso de singleton quase sempre é sinal de problemas de design.
+Em entrevista, anos após a criação do livro, Erich Gamma (um dos autores), mencionou seu interesse em remover o Singleton se fossem reescrever o livro na atualidade. Segundo ele, o uso de singleton quase sempre é sinal de problemas de design. [entrevista](https://www.informit.com/articles/article.aspx?p=1404056)
 
 # Estrutura
 [Ver UML](https://github.com/demarche1/design-patterns-typescript/blob/master/src/creational/singleton/diagrams/Singleton.png)
@@ -40,5 +40,3 @@ O que é bom ou ruim nos Singletons:
   - É mais difícil de testar;
   - Viola o princípio da responsabilidade única;
   - Requer tratamento especial em casos de concorrência;
-  - Erich Gamma(autor) descreveu em uma entrevista que este seria o único padrão que ele removeria do livro - [entrevista](https://www.informit.com/articles/article.aspx?p=1404056)
-
