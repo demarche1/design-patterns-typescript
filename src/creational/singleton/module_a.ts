@@ -35,9 +35,9 @@ export { db };
 
 /* ######## SINGLETON WITH CLOSURES BELOW ####### */
 
-import { MyDatabaseClosure } from "./db/myDatabaseFunction";
+import { myDatabaseClosure } from "./db/myDatabaseClosure";
 
-const db = MyDatabaseClosure;
+const db = myDatabaseClosure;
 
 console.log(db.add({ age: 26, name: "Alessandro" }));
 console.log(db.add({ age: 32, name: "Clebão Big Boy" }));
