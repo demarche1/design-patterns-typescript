@@ -11,7 +11,7 @@
 - Você pode fazer um objeto "herdar" de outro
 - A "herança" é obtida via <strong>delegação</strong>(um objeto delega algo para seu protótipo)
 - Uma das maneiras mais simples para manipular o protótipo do um objeto é usando ```Object.create(prototypeObject) ```
-- Também temos o custume de usar classes ou funções contrutoras para manipulação de protótipos (isso faz com que JS/TS pareçam estar usando o padrão orientado a objetos clássico)
+- Também temos o custume de usar classes ou funções construtoras para manipulação de protótipos (isso faz com que JS/TS pareçam estar usando o padrão orientado a objetos clássico)
 
 # Visão geral do padrão prototype
 
